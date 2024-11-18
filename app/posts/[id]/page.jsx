@@ -18,9 +18,7 @@ export default async function PostDetailPage({ params }) {
         alt={post.title.rendered}
         className="rounded-lg my-4"
       />
-      <div
-        className="content"
-        dangerouslySetInnerHTML={{ __html: post.content.rendered }}></div>
+      <div dangerouslySetInnerHTML={{ __html: post.content.rendered }}></div>
     </section>
   );
 }
