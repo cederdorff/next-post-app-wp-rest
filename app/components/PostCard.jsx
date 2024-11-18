@@ -18,12 +18,6 @@ export default function PostCard({ post }) {
           <h2 className="text-lg text-gray-800 font-semibold">
             {post.title.rendered}
           </h2>
-          {/* <div
-                dangerouslySetInnerHTML={{
-                  __html: post.content.rendered
-                }}
-                className="text-gray-700"
-              /> */}
         </div>
       </article>
     </Link>

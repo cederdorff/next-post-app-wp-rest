@@ -24,13 +24,6 @@ export default function Navbar() {
             }`}>
             Posts
           </Link>
-          <Link
-            href="/posts/create"
-            className={`px-4 py-3 rounded hover:bg-teal-500 cursor-pointer transition-all ${
-              pathname === "/posts/create" ? "bg-teal-500 " : "bg-teal-600"
-            }`}>
-            New Post
-          </Link>
         </nav>
       </div>
     </header>
